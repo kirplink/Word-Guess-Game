@@ -43,7 +43,7 @@ document.onkeyup = (event) => {
         }
     }
     blankSpaces.textContent = rightLetter.join('');
-    letterBank.textContent = wrongLetter.join('');
+    letterBank.textContent = wrongLetter.join(' ');
     console.log("Right " + rightLetter);
     console.log("Wrong " + wrongLetter);
 }

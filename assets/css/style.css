@@ -17,8 +17,8 @@
 }
 
 .wrong-letters {
-    font-size: 20px;
-    text-align: center;
+    font-size: 60px;
+    /* text-align: center; */
     border: 2px solid rgba(255, 255, 255, 0.733);
     height: 500px;
     width: 400px;
@@ -26,6 +26,14 @@
     position: absolute;
     top: 20px;
     right: 50px;
+}
+
+#letter-bank {
+    font-size: 60px;
+    letter-spacing: 12px;
+    width: 380px;
+    display: inline;
+    text-align: left !important;
 }
 
 
