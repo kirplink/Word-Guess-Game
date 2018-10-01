@@ -4,6 +4,7 @@
     color: white;
     width: 960px;
     margin: 50px auto;
+    
 }
 
 #underscores {
@@ -12,8 +13,38 @@
     /* color: purple; */
     text-align: center;
     position: absolute;
-    bottom: 65px;
-    left: 100px;
+    top: 365px;
+    left: 55px;
+}
+
+#tries {
+    font-size: 30px;
+    letter-spacing: 8px;
+    /* color: purple; */
+    text-align: center;
+    position: absolute;
+    top: 460px;
+    left: 55px; 
+}
+
+#wins {
+    font-size: 30px;
+    letter-spacing: 8px;
+    /* color: purple; */
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 55px; 
+}
+
+#losses {
+    font-size: 30px;
+    letter-spacing: 8px;
+    /* color: purple; */
+    text-align: center;
+    position: absolute;
+    top: 540px;
+    left: 55px; 
 }
 
 .wrong-letters {
